@@ -31,7 +31,7 @@ Each execution of the script will log the extracted URLs within XML files in a s
 
 ### Disclaimer
 
-This script is intended for educational and security testing purposes only. Utilize it responsibly and in compliance with applicable laws and regulations. And remember... ***DON'T DO CRIME :)***
+This script is intended for educational and security testing purposes only. Utilize it responsibly and in compliance with applicable laws and regulations. Remember... ***DON'T DO CRIME :)***
     
 
 
