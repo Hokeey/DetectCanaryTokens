@@ -27,7 +27,11 @@ Each execution of the script will log the extracted URLs within XML files in a s
 
 # Script Preview 
 
+![cts_output](https://github.com/user-attachments/assets/8a52c845-f876-49dc-8b35-bc2d58c85a9a)
 
+### Disclaimer
+
+This script is intended for educational and security testing purposes only. Utilize it responsibly and in compliance with applicable laws and regulations. And remember... ***DON'T DO CRIME :)***
     
 
 
