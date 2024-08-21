@@ -84,14 +84,14 @@ main() {
     if check_connection; then
         if [ -e "$FILE_OR_DIRECTORY_PATH" ]; then
             if [ -f "$FILE_OR_DIRECTORY_PATH" ]; then
-                # Process the file and append found URLs to the output file
+                
                 if [[ "$FILE_OR_DIRECTORY_PATH" =~ \.(zip|docx|xlsx|pptx)$ ]]; then
                     decompress_and_scan "$FILE_OR_DIRECTORY_PATH"
                 elif [[ "$FILE_OR_DIRECTORY_PATH" =~ \.pdf$ ]]; then
                     process_pdf_file "$FILE_OR_DIRECTORY_PATH"
                 fi
             elif [ -d "$FILE_OR_DIRECTORY_PATH" ]; then
-                # Process each file in the directory and append found URLs to the output file
+                
                 find "$FILE_OR_DIRECTORY_PATH" -type f -print0 | while IFS= read -r -d '' current_file_path; do
                     if [[ "$current_file_path" =~ \.(zip|docx|xlsx|pptx)$ ]]; then
                         decompress_and_scan "$current_file_path"
