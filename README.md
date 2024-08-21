@@ -8,15 +8,22 @@ Detect Canary Tokens is a CLI script designed to search through files in a speci
 ## Prerequsities
 * Make sure [git](https://git-scm.com/downloads) is downloaded, as it's needed to clone this repository.
 
-## Installation and usage
+## Usage
 
- 1. Clone this repository with: ```git clone https://github.com/Hokeey/DetectCanaryTokens```
+**1. Installation**
+
+ - Clone this repository with: ```git clone https://github.com/Hokeey/DetectCanaryTokens```
  
- 2. CD into DetectCanaryTokens
+ - CD into DetectCanaryTokens
  
- 3. Make the bash script executable: ```chmod +x find_canary_tokens.sh```
+ - Make the bash script executable: ```chmod +x find_canary_tokens.sh```
  
- 4. Run script: ```./find_canary_tokens.sh /path/to/directory output.txt ```  
+ - Run script: ```./find_canary_tokens.sh /path/to/directory output.txt ```
+Note: The .txt file name can be anything. Just keep in mind, if the script is executed twice with the same .txt name, the second execution of the script will replace the logged results of the previous execution. 
+
+**2. Interpret Results**
+
+Each execution of the script will log the extracted URLs within XML files in a separate text file, and once logged you can search through the text file to see any suspious or outlier URLs. 
     
 
 
