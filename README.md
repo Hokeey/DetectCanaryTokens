@@ -19,11 +19,15 @@ Detect Canary Tokens is a CLI script designed to search through files in a speci
  - Make the bash script executable: ```chmod +x find_canary_tokens.sh```
  
  - Run script: ```./find_canary_tokens.sh /path/to/directory output.txt ```
-Note: The .txt file name can be anything. Just keep in mind, if the script is executed twice with the same .txt name, the second execution of the script will replace the logged results of the previous execution. 
+Note: The text file name can be anything. Just keep in mind, if the script is executed twice with the same text name, the second execution of the script will replace the logged results of the previous execution. 
 
 **2. Interpret Results**
 
-Each execution of the script will log the extracted URLs within XML files in a separate text file, and once logged you can search through the text file to see any suspious or outlier URLs. 
+Each execution of the script will log the extracted URLs within XML files in a separate text file, and once logged you can search through the text file to find any suspious URLs. To find instances of logged URL connections to canary tokens within the text file ```Control + F``` on Windows/Linux or ```Command + F``` for OS X.
+
+# Script Preview 
+
+
     
 
 
