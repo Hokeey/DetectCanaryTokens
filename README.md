@@ -16,9 +16,9 @@ Detect Canary Tokens is a CLI script designed to search through files in a speci
  
  - CD into DetectCanaryTokens
  
- - Make the bash script executable: ```chmod +x find_canary_tokens.sh```
+ - Make the bash script executable: ```chmod +x detect_canary_tokens.sh```
  
- - Run script: ```./find_canary_tokens.sh /path/to/directory output.txt ```
+ - Run script: ```./detect_canary_tokens.sh /path/to/directory output.txt ```
 Note: The text file name can be anything. Just keep in mind, if the script is executed twice with the same text name, the second execution of the script will replace the logged results of the previous execution. 
 
 **2. Interpret Results**
